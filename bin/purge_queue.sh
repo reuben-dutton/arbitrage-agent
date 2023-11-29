@@ -1,0 +1,1 @@
+docker container exec rabbitmq-server rabbitmqctl purge_queue taskiq

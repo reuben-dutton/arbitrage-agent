@@ -1,0 +1,34 @@
+
+https://ss-aka-ori.ladbrokes.com/openbet-ssviewer/Drilldown/2.31/
+
+Class -> area/country
+Event -> event
+
+
+simpleFilter=class.categoryId:intersects:{number}
+simpleFilter=event.categoryId:intersects:{number}
+
+&translationLang=en&responseFormat=json
+
+American,International,Australia,European Competitions = 51,31,13,25
+(just basketball)
+
+
+https://ss-aka-ori.ladbrokes.com/openbet-ssviewer/Drilldown/2.31/ClassToSubType?
+simpleFilter=class.categoryId:equals:6
+&simpleFilter=class.siteChannels:contains:M
+&simpleFilter=class.isActive
+&simpleFilter=type.hasOpenEvent
+&translationLang=en
+&responseFormat=json
+
+
+https://ss-aka-ori.ladbrokes.com/openbet-ssviewer/Drilldown/2.31/Event/?
+simpleFilter=event.typeId:equals:115431
+&translationLang=en
+&responseFormat=json
+
+https://ss-aka-ori.ladbrokes.com/openbet-ssviewer/Drilldown/2.31/EventToOutcomeForEvent/241804982?
+&translationLang=en
+&responseFormat=json
+&referenceEachWayTerms=true
